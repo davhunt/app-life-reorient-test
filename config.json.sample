@@ -1,0 +1,7 @@
+{
+"track": "/N/u/davhunt/Carbonate/Downloads/100408/track.tck",
+"dwi": "/N/u/davhunt/Carbonate/Downloads/100408/dwi.nii.gz",
+"life_discretization": 360,
+"num_iterations": 100
+}
+

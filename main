@@ -8,6 +8,9 @@
 set -e
 set -x
 
+# make sure dwi is in 'RAS' orientation
+time singularity exec docker://brainlife/fsl ./check_orientation.sh
+
 export MAXMEM=19000000
 #time singularity exec docker://brainlife/mcr:2018a ./compiled/main
 time singularity exec docker://brainlife/mcr:neurodebian1604-r2017a ./compiled/main
